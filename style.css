@@ -1,0 +1,29 @@
+* {
+   box-sizing: border-box;
+}
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+   overflow: hidden;
+}
+.bg {
+   background-image: url('images/img2.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 100vh;
+   z-index: -1;
+   filter: blur(0px);
+}
+.loading-text {
+   font-size: 77px;
+   font-weight: 900;
+   color: #fff;
+}
